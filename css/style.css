@@ -6,6 +6,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    background-color: #00B2EE;
+
+}
+
 #header_value {
     background-color: white;
     height: 90px;
@@ -24,12 +29,6 @@
     display: inline-block
 }
 
-
-body {
-    background-color: #00B2EE;
-
-}
-
 .whitecontainer {
     background-color: white;
     height: 750px;
@@ -37,9 +36,6 @@ body {
     margin: auto;
     margin-top: 60px;
     border-radius: 10px;
-}
-
-.space {
 }
 
 .add_task {
@@ -65,7 +61,7 @@ body {
     display:inline-block
 }
 
-.margin_left {
+.margin {
     margin-left: 100px;
 }
 
@@ -76,6 +72,8 @@ h2::before {
 .section{
     margin-top: 15px;
 }
+
+/* Spunta "True" */
 .check::before{
     content: "\2713";
     color: #40ffff ;
@@ -90,32 +88,8 @@ h2::before {
     font-size: 13px;
     text-align: center;
 }
-.font {
-    font-size: 20px;
-}
-.editorial {
-    background-color: #00B2EE;
-    height: 30px;
-    width: 80px;
-    line-height: 30px;
-    text-align: center;
-    border-radius: 50px;
-    display: inline-block;
-    color: white;
-    font-size: 15px;
-    margin-left: 3px;
-}
-.q1goals {
-    background-color: 	#B452CD;
-    height: 30px;
-    width: 95px;
-    line-height: 30px;
-    text-align: center;
-    border-radius: 50px;
-    display: inline-block;
-    color: white;
-    font-size: 15px;
-}
+
+/*Spunta "False" */
 .cross::before {
     content: "\2715";
     color: red ;
@@ -129,6 +103,36 @@ h2::before {
     font-size: 21px;
     text-align: center;
 }
+
+.font {
+    font-size: 20px;
+}
+
+.editorial {
+    background-color: #00B2EE;
+    height: 30px;
+    width: 80px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50px;
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    margin-left: 3px;
+}
+
+.q1goals {
+    background-color: 	#B452CD;
+    height: 30px;
+    width: 95px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50px;
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+}
+
 .recruiting {
     background-color: 	aqua;
     height: 30px;
@@ -140,6 +144,7 @@ h2::before {
     color: white;
     font-size: 15px;
 }
+
 .mobile {
     background-color: 	#ffa420;
     height: 30px;
@@ -152,6 +157,7 @@ h2::before {
     font-size: 15px;
     margin-left: 3px;
 }
+
 .website{
     background-color: 	#EE00EE;
     height: 30px;
@@ -164,6 +170,7 @@ h2::before {
     font-size: 15px;
     margin-left: 3px;
 }
+
 .sales {
     background-color: 	#B3EE3A;
     height: 30px;
