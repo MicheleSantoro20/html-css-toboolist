@@ -38,6 +38,7 @@ body {
     margin-top: 100px;
     border-radius: 10px;
 }
+
 .space {
 }
 
@@ -52,6 +53,7 @@ body {
     display: inline-block;
     font-weight: bold;
 }
+
 .add_sections{
     margin-left: 25px;
     border: 2px solid lightgray;
@@ -62,6 +64,7 @@ body {
     line-height: 40px;
     display:inline-block
 }
+
 .margin_left {
     margin-left: 100px;
 }
@@ -69,9 +72,33 @@ body {
 h2::before {
     content: "\2714";
 }
+#newtask{
+    margin-top: 30px;
+}
 .check::before{
     content: "\2713";
+    color: #40ffff ;
+    border: 2px solid #40ffff ;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    line-height: 15px;
+    margin-right: 15px;
+    font-weight: bold;
+    font-size: 13px;
 }
-.check {
-    color: lightgreen;
+.font {
+    font-size: 20px;
+}
+.editorial {
+    background-color: #00B2EE;
+    height: 30px;
+    width: 80px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50px;
+    display: inline-block;
+    color: white;
+    font-size: 15px;
 }
