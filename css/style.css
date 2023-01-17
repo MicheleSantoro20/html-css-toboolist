@@ -71,6 +71,7 @@ h2::before {
 }
 .check::before{
     content: "\2713";
+}
 .check {
     color: lightgreen;
 }
