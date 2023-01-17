@@ -4,18 +4,27 @@
     box-sizing: border-box;
 }
 
-#container img {
-    margin : 10px 0px 0px 30px;
+.container img {
+    margin : 12px 0px 0px 30px;
 }
 
 #header_value {
-    height: 200px;
-}
-
-header img {
+    background-color: white;
     height: 100px;
 }
 
-main {
-    background-color:	#63B8FF;
+#logo {
+    height: 75px;
+}
+#title {
+    height: 130px;
+    font-size: 55px;
+    font-family: 'Roboto', sans-serif;
+    vertical-align: middle;
+    display: inline-block
+}
+
+
+body {
+    background-color: #00B2EE;
 }
