@@ -8,18 +8,18 @@
 
 #header_value {
     background-color: white;
-    height: 100px;
+    height: 90px;
 }
 
 #logo {
-    height: 75px;
-    margin : 12px 0px 0px 30px;
+    height: 70px;
+    margin : 5px 0px 0px 30px;
 }
 
 #title {
     font-weight: bold;
-    height: 140px;
-    font-size: 55px;
+    height: 120px;
+    font-size: 45px;
     vertical-align: middle;
     display: inline-block
 }
@@ -32,10 +32,10 @@ body {
 
 .whitecontainer {
     background-color: white;
-    height: 700px;
+    height: 750px;
     width: 70%;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 60px;
     border-radius: 10px;
 }
 
@@ -71,9 +71,10 @@ body {
 
 h2::before {
     content: "\2714";
+    margin-right: 10px
 }
-#newtask{
-    margin-top: 30px;
+.section{
+    margin-top: 15px;
 }
 .check::before{
     content: "\2713";
@@ -102,4 +103,76 @@ h2::before {
     display: inline-block;
     color: white;
     font-size: 15px;
+    margin-left: 3px;
+}
+.q1goals {
+    background-color: 	#B452CD;
+    height: 30px;
+    width: 95px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50px;
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+}
+.cross::before {
+    content: "\2715";
+    color: red ;
+    border: 1px solid red ;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    line-height: 19px;
+    margin-right: 15px;
+    font-size: 21px;
+    text-align: center;
+}
+.recruiting {
+    background-color: 	aqua;
+    height: 30px;
+    width: 95px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50px;
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+}
+.mobile {
+    background-color: 	#ffa420;
+    height: 30px;
+    width: 75px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50px;
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    margin-left: 3px;
+}
+.website{
+    background-color: 	#EE00EE;
+    height: 30px;
+    width: 85px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50px;
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    margin-left: 3px;
+}
+.sales {
+    background-color: 	#B3EE3A;
+    height: 30px;
+    width: 70px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50px;
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    margin-left: 3px;
 }
